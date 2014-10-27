@@ -7,12 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4FDE8D1219F9D3E00043659F /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FDE8D1019F9D3E00043659F /* logo.png */; };
+		4FDE8D1319F9D3E00043659F /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FDE8D1119F9D3E00043659F /* logo@2x.png */; };
+		4FDE8D1C19F9D8470043659F /* ng.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FDE8D1619F9D8470043659F /* ng.png */; };
+		4FDE8D1D19F9D8470043659F /* ng@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FDE8D1719F9D8470043659F /* ng@2x.png */; };
+		4FDE8D1E19F9D8470043659F /* ok.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FDE8D1819F9D8470043659F /* ok.png */; };
+		4FDE8D1F19F9D8470043659F /* ok@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FDE8D1919F9D8470043659F /* ok@2x.png */; };
+		4FDE8D2019F9D8470043659F /* sound.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FDE8D1A19F9D8470043659F /* sound.png */; };
+		4FDE8D2119F9D8470043659F /* sound@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FDE8D1B19F9D8470043659F /* sound@2x.png */; };
+		4FDE8D2619F9DF2B0043659F /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4FDE8D2319F9DF2B0043659F /* sound.mp3 */; };
+		4FDE8D2719F9DF2B0043659F /* ok.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4FDE8D2419F9DF2B0043659F /* ok.mp3 */; };
+		4FDE8D2819F9DF2B0043659F /* ng.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4FDE8D2519F9DF2B0043659F /* ng.mp3 */; };
 		4FF296C019F906F300DAA613 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF296BF19F906F300DAA613 /* AppDelegate.swift */; };
 		4FF296C219F906F300DAA613 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF296C119F906F300DAA613 /* ViewController.swift */; };
-		4FF296C519F906F300DAA613 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FF296C319F906F300DAA613 /* Main.storyboard */; };
 		4FF296C719F906F300DAA613 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FF296C619F906F300DAA613 /* Images.xcassets */; };
 		4FF296CA19F906F300DAA613 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FF296C819F906F300DAA613 /* LaunchScreen.xib */; };
 		4FF296D619F906F300DAA613 /* CounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF296D519F906F300DAA613 /* CounterTests.swift */; };
+		4FF296E019F9090400DAA613 /* CounterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF296DF19F9090400DAA613 /* CounterCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +37,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4FDE8D1019F9D3E00043659F /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = Counter/logo.png; sourceTree = "<group>"; };
+		4FDE8D1119F9D3E00043659F /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo@2x.png"; path = "Counter/logo@2x.png"; sourceTree = "<group>"; };
+		4FDE8D1619F9D8470043659F /* ng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ng.png; sourceTree = "<group>"; };
+		4FDE8D1719F9D8470043659F /* ng@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ng@2x.png"; sourceTree = "<group>"; };
+		4FDE8D1819F9D8470043659F /* ok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ok.png; sourceTree = "<group>"; };
+		4FDE8D1919F9D8470043659F /* ok@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ok@2x.png"; sourceTree = "<group>"; };
+		4FDE8D1A19F9D8470043659F /* sound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sound.png; sourceTree = "<group>"; };
+		4FDE8D1B19F9D8470043659F /* sound@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sound@2x.png"; sourceTree = "<group>"; };
+		4FDE8D2319F9DF2B0043659F /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
+		4FDE8D2419F9DF2B0043659F /* ok.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ok.mp3; sourceTree = "<group>"; };
+		4FDE8D2519F9DF2B0043659F /* ng.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ng.mp3; sourceTree = "<group>"; };
 		4FF296BA19F906F300DAA613 /* Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Counter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FF296BE19F906F300DAA613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FF296BF19F906F300DAA613 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FF296C119F906F300DAA613 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4FF296C419F906F300DAA613 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4FF296C619F906F300DAA613 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4FF296C919F906F300DAA613 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4FF296CF19F906F300DAA613 /* CounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FF296D419F906F300DAA613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FF296D519F906F300DAA613 /* CounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterTests.swift; sourceTree = "<group>"; };
+		4FF296DF19F9090400DAA613 /* CounterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +78,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4FDE8D1419F9D3EA0043659F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4FDE8D2219F9DF130043659F /* Sounds */,
+				4FDE8D1519F9D3EF0043659F /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4FDE8D1519F9D3EF0043659F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4FDE8D1019F9D3E00043659F /* logo.png */,
+				4FDE8D1119F9D3E00043659F /* logo@2x.png */,
+				4FDE8D1619F9D8470043659F /* ng.png */,
+				4FDE8D1719F9D8470043659F /* ng@2x.png */,
+				4FDE8D1819F9D8470043659F /* ok.png */,
+				4FDE8D1919F9D8470043659F /* ok@2x.png */,
+				4FDE8D1A19F9D8470043659F /* sound.png */,
+				4FDE8D1B19F9D8470043659F /* sound@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		4FDE8D2219F9DF130043659F /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				4FDE8D2319F9DF2B0043659F /* sound.mp3 */,
+				4FDE8D2419F9DF2B0043659F /* ok.mp3 */,
+				4FDE8D2519F9DF2B0043659F /* ng.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
 		4FF296B119F906F200DAA613 = {
 			isa = PBXGroup;
 			children = (
+				4FDE8D1419F9D3EA0043659F /* Resources */,
 				4FF296BC19F906F300DAA613 /* Counter */,
 				4FF296D219F906F300DAA613 /* CounterTests */,
 				4FF296BB19F906F300DAA613 /* Products */,
@@ -79,7 +136,7 @@
 			children = (
 				4FF296BF19F906F300DAA613 /* AppDelegate.swift */,
 				4FF296C119F906F300DAA613 /* ViewController.swift */,
-				4FF296C319F906F300DAA613 /* Main.storyboard */,
+				4FF296DF19F9090400DAA613 /* CounterCell.swift */,
 				4FF296C619F906F300DAA613 /* Images.xcassets */,
 				4FF296C819F906F300DAA613 /* LaunchScreen.xib */,
 				4FF296BD19F906F300DAA613 /* Supporting Files */,
@@ -192,9 +249,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FF296C519F906F300DAA613 /* Main.storyboard in Resources */,
+				4FDE8D1F19F9D8470043659F /* ok@2x.png in Resources */,
+				4FDE8D2819F9DF2B0043659F /* ng.mp3 in Resources */,
+				4FDE8D2019F9D8470043659F /* sound.png in Resources */,
+				4FDE8D2719F9DF2B0043659F /* ok.mp3 in Resources */,
+				4FDE8D2119F9D8470043659F /* sound@2x.png in Resources */,
+				4FDE8D1E19F9D8470043659F /* ok.png in Resources */,
+				4FDE8D2619F9DF2B0043659F /* sound.mp3 in Resources */,
+				4FDE8D1C19F9D8470043659F /* ng.png in Resources */,
 				4FF296CA19F906F300DAA613 /* LaunchScreen.xib in Resources */,
+				4FDE8D1319F9D3E00043659F /* logo@2x.png in Resources */,
+				4FDE8D1D19F9D8470043659F /* ng@2x.png in Resources */,
 				4FF296C719F906F300DAA613 /* Images.xcassets in Resources */,
+				4FDE8D1219F9D3E00043659F /* logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FF296E019F9090400DAA613 /* CounterCell.swift in Sources */,
 				4FF296C219F906F300DAA613 /* ViewController.swift in Sources */,
 				4FF296C019F906F300DAA613 /* AppDelegate.swift in Sources */,
 			);
@@ -236,14 +304,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4FF296C319F906F300DAA613 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4FF296C419F906F300DAA613 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4FF296C819F906F300DAA613 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -341,6 +401,7 @@
 				INFOPLIST_FILE = Counter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "acd0732c-5167-471d-be51-08728aad3c57";
 			};
 			name = Debug;
 		};
@@ -351,6 +412,7 @@
 				INFOPLIST_FILE = Counter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "acd0732c-5167-471d-be51-08728aad3c57";
 			};
 			name = Release;
 		};
@@ -407,6 +469,7 @@
 				4FF296DB19F906F300DAA613 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4FF296DC19F906F300DAA613 /* Build configuration list for PBXNativeTarget "CounterTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +478,7 @@
 				4FF296DE19F906F300DAA613 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
